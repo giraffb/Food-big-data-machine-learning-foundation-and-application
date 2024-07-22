@@ -1,0 +1,1 @@
+nohup python dcgan.py --dataset folder --dataroot /home/stu_6/FoodGAN-master/food01_image   >nohup.out 2>&1
