@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="stu_6@172.19.179.140:22" deleteMissingItems="true">
+    <serverData>
+      <paths name="NLM@172.19.179.89:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/NLM/myProgram/nutrition-rgb" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="service">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="stu_6@172.19.179.140:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/stu_6/myproject/nutrition-rgb" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="stu_6@172.19.179.140:22 (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="stu_6@172.19.179.140:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/stu_6/myproject/nutrition-rgb" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
