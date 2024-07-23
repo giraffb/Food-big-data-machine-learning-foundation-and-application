@@ -1,0 +1,34 @@
+dataset_dir: /home/stu_6/Datasets/nutrition5k_dataset/imagery/
+dataset_workers: 16
+split:
+  train: 0.8
+  validation: 0.2
+  test:
+batch_size: 192
+learning_rate: 0.0001
+epochs: 100
+step_size: 5
+gamma: 0.5
+momentum: 0.8
+save_best_model_only: True
+end_epoch: epoch_0
+use_depth_image: True
+start_checkpoint:
+test_checkpoint:
+prediction_threshold: 2
+mixed_precision_enabled: False
+gradient_acc_steps: 1
+max_training_time: 240
+log_dir: 'runs'
+
+#experiment_name: 'swin-nutrition-noLoss'
+experiment_name: 'ens_inception_v4_mvitv2_tiny'
+#pretrained: '/home/NLM/myProgram/resnetGAN/pretrained/swin_tiny_patch4_window7_224_22k.pth'
+pretrained: '/home/NLM/myProgram/pretrained/swin_transformer_food2k.pth'
+#pretrained: '/home/NLM/myProgram/nutrition-rgb/runs/swin-nutrition-noLoss/2023-03-31 09:32:29.438309/epoch_6/model.pt'
+lr_scheduler:
+  patience: 2
+  metric: 'val_loss'
+task_list: ['calorie', 'mass', 'fat', 'carb', 'protein']
+
+
