@@ -1,6 +1,0 @@
-torch
-transformers
-pandas
-numpy
-sentencepiece
-sentence-splitter
